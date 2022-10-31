@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+import Flower from './flower';
+// const items = [
+//   {img: url(/images/image_1.png), name: 'Barberton Daisy', id: 1995751877966, price: 119.00 },
+//   {img: url(/images/image_2.png), name: 'Blushing Bromeliad', id: 19957518757065, price: 139.00 },
+//   {img: url(/images/image_3.png), name: 'Aluminum Plant', id: 1995751877786, price: 179.00 }
+  
+// ]
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Flower />
+    {/* {
+      items.map((value) => {
+        return <App data={value} />;
+      })} */}
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

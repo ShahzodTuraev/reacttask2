@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+   
+    
+}
+table{
+     margin: 50px auto;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border: 1px solid black;
+  }
+
+  td{
+    padding: 15px 30px;
+  }
+  
+  .tablehead{
+    font-weight: 700;
+    background-color: aliceblue;
+  }
