@@ -1,23 +1,135 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row_header {
+  display: flex;
+  justify-content: space-between;
+  width: 790px;
+  margin: 0 auto;
+  padding: 20px 150px 10px 10px;
+  margin-bottom: 16px;
+  border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+}
+
+.row_comfort {
+  display: flex;
+  justify-content: space-between;
+  
+  width: 321px;
+}
+
+.headers{
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
 .container{
     display: flex;
-   
-    
-}
-table{
-     margin: 50px auto;
-     text-align: center;
-     font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    width: 790px;
+    height: 70px;
+    background: #FBFBFB;
+    margin: 0 auto;
+    margin-bottom: 5px;
 }
 
-table {
-    border: 1px solid black;
-  }
+.product_box {
+  display: flex;
+  align-items: center;
+}
 
-  td{
-    padding: 15px 30px;
-  }
-  
-  .tablehead{
-    font-weight: 700;
-    background-color: aliceblue;
-  }
+.flower_img {
+  width: 66px;
+  height: 66px;
+  margin: 11px 14px 11px 5px;
+}
+.heading_box {
+  width: 160px;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+  margin-bottom: 6px;
+}
+
+.id_box {
+  display: flex;
+}
+
+.id_text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #A5A5A5;
+}
+
+.id_num{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #727272;
+}
+.price_box{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #727272;
+}
+
+.quantity_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+}
+
+.btn_minus, .btn_plus {
+  background: linear-gradient(180deg, #46A358 0%, rgba(70, 163, 88, 0.8) 100%);
+  border-radius: 29px;
+  border: none;
+  width: 22px;
+  height: 25px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  transition: all 0.3s; 
+}
+
+.btn_minus:active, .btn_plus:active{
+  transform: scale(0.7);
+}
+
+.count{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 10px;
+  color: #3D3D3D;
+}
+
+.total_text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #46A358;
+}
+.delete{
+  width: 24px;
+  height: 24px;
+  margin-right: 23px;
+}
+
