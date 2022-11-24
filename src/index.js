@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Flower from './flower';
+import Hooks from './Hooks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Flower />
+    <Hooks />
   </React.StrictMode>
 );
 
